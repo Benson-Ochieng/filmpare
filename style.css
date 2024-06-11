@@ -1,0 +1,59 @@
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+/* .results {
+  max-height: 500px;
+  overflow-y: scroll;
+} */
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-menu{
+  box-shadow: 5px 5px 5px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.autocomplete,
+.autocomplete-2,
+.autocomplete-3{
+  max-width: 60%;
+  margin-left: 5vw;
+}
